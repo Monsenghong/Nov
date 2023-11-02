@@ -19,7 +19,9 @@ const connect = async ()=>{
     })
 }
 
-
+app('/home',(req,res)=>{
+    res.send("Welcome our jurney Senghong")
+})
 
 app.use('/auth',authRouter)
 

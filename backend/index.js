@@ -19,7 +19,7 @@ const connect = async ()=>{
     })
 }
 
-app.use('/home',(req,res)=>{
+app.use('/',(req,res)=>{
     res.send("Welcome our jurney Senghong")
 })
 
